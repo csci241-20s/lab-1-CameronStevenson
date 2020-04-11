@@ -1,0 +1,659 @@
+Script started on 2020-04-10 19:19:22-0700
+stevenc9@cf418-18:~/csci241$ cf[Kd Lab-1-[CCameronsteve[K[K[K[K[KStevenson
+bash: cd: Lab-1-CameronStevenson: No such file or directory
+stevenc9@cf418-18:~/csci241$ cd lab1-[K[K-1-Cameronste[K[K[KStevenson
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ ls
+build.gradle  settings.gradle  src  writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ cd writeup.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd writeup.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add writeup.,[Ktxt 1>[K.([K) Camero[K[K[K[K[K[K[KCameron Steve[K[K[K[K[K[K[K[K[K[K[K[K[K Cam[K[K[K[K[K[K) Cameron[K[K[K[K[K[K[K[K[K[K"Camer[K[K[K[K[K1.[K) [KC[K Cameron Stevenson"
+fatal: pathspec '1) Cameron Stevenson' did not match any files
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add writeup.t[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add wir[K[Kriteup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit -m[K[K[K[Kt -,[Km "ad[K[KAdded part 1 (names) to writeup"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git pull
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From http://github.com/csci241-20s/lab-1-CameronStevenson
+   6a53126..d9f84c9  master     -> origin/master
+Updating 6a53126..d9f84c9
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': CameronStevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Everything up-to-date
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add writeup.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ giot[K[K[Kt[Kit status writeup,t[K[K.txt
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push origin master
+Username for 'https://github.com': Camerons Stevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Everything up-to-date
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ ei[Kdit wi[Kriteup [K.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "~/csci241/lab-1-CameronStevenson/.writeup.txt.swp"
+[10Cowned by: stevenc9   dated: Fri Apr 10 19:15:25 2020
+[9Cfile name: ~stevenc9/csci241/lab-1-CameronStevenson/writeup.txt
+[10Cmodified: YES
+[9Cuser name: stevenc9   host name: cf420-38
+[8Cprocess ID: 27946
+While opening file "/home/stevenc9/csci241/lab-1-CameronStevenson/writeup.txt"
+[13Cdated: Fri Apr 10 19:25:11 2020
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /home/stevenc9/csci241/lab-1-CameronStevenson/writeup.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/home/stevenc9/csci241/lab-1-CameronStevenson/.writeup.txt.swp"
+    to avoid this message.
+
+[32mSwap file "~/csci241/lab-1-CameronStevenson/.writeup.txt.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort: [?25h[m[58;1H[K[?25l[58;1H"~/csci241/lab-1-CameronStevenson/writeup.txt" [dos] 1L, 22C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H1) Cameron Stevenson
+[94m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [57;1H~                                                                                                                    [m[58;100H1,8[11CAll[1;8H[?25h[?25l[58;90H^[[1;8H[58;92H[[1;8H[58;90H   [1;8H[58;90H^[[1;8H[58;92H[[1;8H[58;93H2[1;8H[58;94H;[1;8H[58;90H     [1;8H[?25h[?25l[58;90H~@k[1;8H[58;90H   [1;9H[58;102H9[1;9H[?25h[?25l[58;90H~@k[1;9H[58;90H   [1;10H[58;102H10[1;10H[?25h[?25l[58;90H~@k[1;10H[58;90H   [1;11H[58;103H1[1;11H[?25h[?25l[58;90H~@k[1;11H[58;90H   [1;12H[58;103H2[1;12H[?25h[?25l[58;90H~@k[1;12H[58;90H   [1;13H[58;103H3[1;13H[?25h[?25l[58;90H~@k[1;13H[58;90H   [1;14H[58;103H4[1;14H[?25h[?25l[58;90H~@k[1;14H[58;90H   [1;15H[58;103H5[1;15H[?25h[?25l[58;90H~@k[1;15H[58;90H   [1;16H[58;103H6[1;16H[?25h[?25l[58;90H~@k[1;16H[58;90H   [1;17H[58;103H7[1;17H[?25h[?25l[58;90H~@k[1;17H[58;90H   [1;18H[58;103H8[1;18H[?25h[?25l[58;90H~@k[1;18H[58;90H   [1;19H[58;103H9[1;19H[?25h[?25l[58;90H~@k[1;19H[58;90H   [1;20H[58;102H20[1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H^M[1;20H[58;90H  [1;20H[?25h[?25l[58;90H^I[1;20H[58;90H  [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;19H[58;102H19[1;19H[?25h[?25l[58;90H~@k[1;19H[58;90H   [1;18H[58;103H8[1;18H[?25h[?25l[58;90H~@k[1;18H[58;90H   [1;17H[58;103H7[1;17H[?25h[?25l[58;90H~@k[1;17H[58;90H   [1;16H[58;103H6[1;16H[?25h[?25l[58;90H~@k[1;16H[58;90H   [1;15H[58;103H5[1;15H[?25h[?25l[58;90H~@k[1;15H[58;90H   [1;14H[58;103H4[1;14H[?25h[?25l[58;90H~@k[1;14H[58;90H   [1;13H[58;103H3[1;13H[?25h[?25l[58;90H~@k[1;13H[58;90H   [1;12H[58;103H2[1;12H[?25h[?25l[58;90H~@k[1;12H[58;90H   [1;11H[58;103H1[1;11H[?25h[?25l[58;90H~@k[1;11H[58;90H   [1;10H[58;103H0[1;10H[?25h[?25l[58;90H~@k[1;10H[58;90H   [1;9H[58;102H9 [1;9H[?25h[?25l[58;90H~@k[1;9H[58;90H   [1;8H[58;102H8[1;8H[?25h[?25l[58;90H~@k[1;8H[58;90H   [1;7H[58;102H7[1;7H[?25h[?25l[58;90H~@k[1;7H[58;90H   [1;6H[58;102H6[1;6H[?25h[?25l[58;90H~@k[1;6H[58;90H   [1;5H[58;102H5[1;5H[?25h[?25l[58;90H~@k[1;5H[58;90H   [1;4H[58;102H4[1;4H[?25h[?25l[58;90H~@k[1;4H[58;90H   [1;4H[?25h[?25l[58;90H~@k[1;4H[58;90H   [1;3H[58;102H3[1;3H[?25h[?25l[58;90H~@k[1;3H[58;90H   [1;3H[?25h[?25l[58;90H~@k[1;3H[58;90H   [1;4H[58;102H4[1;4H[?25h[?25l[58;90H~@k[1;4H[58;90H   [1;5H[58;102H5[1;5H[?25h[?25l[58;90H~@k[1;5H[58;90H   [1;6H[58;102H6[1;6H[?25h[?25l[58;90H~@k[1;6H[58;90H   [1;7H[58;102H7[1;7H[?25h[?25l[58;90H~@k[1;7H[58;90H   [1;8H[58;102H8[1;8H[?25h[?25l[58;90H~@k[1;8H[58;90H   [1;9H[58;102H9[1;9H[?25h[?25l[58;90H~@k[1;9H[58;90H   [1;10H[58;102H10[1;10H[?25h[?25l[58;90H~@k[1;10H[58;90H   [1;11H[58;103H1[1;11H[?25h[?25l[58;90H~@k[1;11H[58;90H   [1;12H[58;103H2[1;12H[?25h[?25l[58;90H~@k[1;12H[58;90H   [1;13H[58;103H3[1;13H[?25h[?25l[58;90H~@k[1;13H[58;90H   [1;14H[58;103H4[1;14H[?25h[?25l[58;90H~@k[1;14H[58;90H   [1;15H[58;103H5[1;15H[?25h[?25l[58;90H~@k[1;15H[58;90H   [1;16H[58;103H6[1;16H[?25h[?25l[58;90H~@k[1;16H[58;90H   [1;17H[58;103H7[1;17H[?25h[?25l[58;90H~@k[1;17H[58;90H   [1;18H[58;103H8[1;18H[?25h[?25l[58;90H~@k[1;18H[58;90H   [1;19H[58;103H9[1;19H[?25h[?25l[58;90H~@k[1;19H[58;90H   [1;20H[58;102H20[1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90H~@k[1;20H[58;90H   [1;20H[?25h[?25l[58;90Ha[1;20H[58;90H [1;21H[58;1H[1m-- INSERT --[m[58;13H[K[58;100H1,21[10CAll[1;21H[?25h[?25ld[58;103H2[1;22H[?25h[?25la[58;103H3[1;23H[?25h[?25l[1;22H[K[58;103H2[1;22H[?25h[?25l[1;21H[K[58;103H1[1;21H[?25h[?25l[2;1H[K[58;100H2,1 [2;1H[?25h[?25l2[58;102H2[2;2H[?25h[?25l.[58;102H3[2;3H[?25h[?25l[2;2H[K[58;102H2[2;2H[?25h[?25l)[58;102H3[2;3H[?25h[?25l[58;102H4[2;4H[?25h[?25lH[58;102H5[2;5H[?25h[?25lo[58;102H6[2;6H[?25h[?25lb[58;102H7[2;7H[?25h[?25lb[58;102H8[2;8H[?25h[?25ly[58;102H9[2;9H[?25h[?25l:[58;102H10[2;10H[?25h[?25l[58;103H1[2;11H[?25h[?25lp[58;103H2[2;12H[?25h[?25l[2;11H[K[58;103H1[2;11H[?25h[?25lP[58;103H2[2;12H[?25h[?25lo[58;103H3[2;13H[?25h[?25ld[58;103H4[2;14H[?25h[?25lc[58;103H5[2;15H[?25h[?25la[58;103H6[2;16H[?25h[?25ls[58;103H7[2;17H[?25h[?25lt[58;103H8[2;18H[?25h[?25ls[58;103H9[2;19H[?25h[?25l[3;1H[K[58;100H3,1 [3;1H[?25h[?25l[94m~                                                                                                                    [m[58;100H2,19[2;19H[?25h[?25l[58;102H20[2;20H[?25h[?25l[3;1H[K[58;100H3,1 [3;1H[?25h[?25l[94m~                                                                                                                    [m[58;100H2,20[2;20H[?25h[?25l[3;1H[K[58;100H3,1 [3;1H[?25h[?25l[94m~                                                                                                                    [m[58;100H2,20[2;20H[?25h[58;1H[K[2;19H[?25l[58;90H^[[2;19H[58;90H  [2;20H[58;100H2,19[10CAll[2;19H[?25h[?25l[58;90H^[[2;19H[58;90H  [2;19H[58;90H^[[2;19H[58;90H  [2;19H[?25h[?25l[58;90H^M[2;19H[58;90H  [2;19H[?25h[?25l[58;90Hw[2;19H[58;90H [2;19H[?25h[?25l[58;90Hq[2;19H[?25h[?25l[58;91H^M[2;19H[58;90H   [2;19H[?25h[?25l[58;90H~@k[2;19H[58;90H   [2;19H[?25h[?25l[58;90H~@k[2;19H[58;90H   [2;19H[?25h[?25l[58;90H^M[2;19H[58;90H  [2;19H[?25h[?25l[58;90H^[[2;19H[58;90H  [2;19H[58;90H^[[2;19H[58;90H  [2;19H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H1) Cameron Stevenson
+2) Hobby: Podcasts
+[94m~                                                                                                                                                                                                                                            [4;1H~                                                                                                                                                                                                                                            [5;1H~                                                                                                                                                                                                                                            [6;1H~                                                                                                                                                                                                                                            [7;1H~                                                                                                                                                                                                                                            [8;1H~                                                                                                                                                                                                                                            [9;1H~                                                                                                                                                                                                                                            [10;1H~                                                                                                                                                                                                                                            [11;1H~                                                                                                                                                                                                                                            [12;1H~                                                                                                                                                                                                                                            [13;1H~                                                                                                                                                                                                                                            [14;1H~                                                                                                                                                                                                                                            [15;1H~                                                                                                                                                                                                                                            [16;1H~                                                                                                                                                                                                                                            [17;1H~                                                                                                                                                                                                                                            [18;1H~                                                                                                                                                                                                                                            [19;1H~                                                                                                                                                                                                                                            [20;1H~                                                                                                                                                                                                                                            [21;1H~                                                                                                                                                                                                                                            [22;1H~                                                                                                                                                                                                                                            [23;1H~                                                                                                                                                                                                                                            [24;1H~                                                                                                                                                                                                                                            [25;1H~                                                                                                                                                                                                                                            [26;1H~                                                                                                                                                                                                                                            [27;1H~                                                                                                                                                                                                                                            [28;1H~                                                                                                                                                                                                                                            [29;1H~                                                                                                                                                                                                                                            [30;1H~                                                                                                                                                                                                                                            [31;1H~                                                                                                                                                                                                                                            [32;1H~                                                                                                                                                                                                                                            [33;1H~                                                                                                                                                                                                                                            [34;1H~                                                                                                                                                                                                                                            [35;1H~                                                                                                                                                                                                                                            [36;1H~                                                                                                                                                                                                                                            [37;1H~                                                                                                                                                                                                                                            [38;1H~                                                                                                                                                                                                                                            [39;1H~                                                                                                                                                                                                                                            [40;1H~                                                                                                                                                                                                                                            [41;1H~                                                                                                                                                                                                                                            [42;1H~                                                                                                                                                                                                                                            [43;1H~                                                                                                                                                                                                                                            [44;1H~                                                                                                                                                                                                                                            [45;1H~                                                                                                                                                                                                                                            [46;1H~                                                                                                                                                                                                                                            [47;1H~                                                                                                                                                                                                                                            [48;1H~                                                                                                                                                                                                                                            [49;1H~                                                                                                                                                                                                                                            [50;1H~                                                                                                                                                                                                                                            [51;1H~                                                                                                                                                                                                                                            [52;1H~                                                                                                                                                                                                                                            [53;1H~                                                                                                                                                                                                                                            [54;1H~                                                                                                                                                                                                                                            [55;1H~                                                                                                                                                                                                                                            [56;1H~                                                                                                                                                                                                                                            [57;1H~                                                                                                                                                                                                                                            [m[58;220H2,19[10CAll[2;19H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H1) Cameron Stevenson
+2) Hobby: Podcasts
+[94m~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [30;1H~                                                                                                                       [31;1H~                                                                                                                       [32;1H~                                                                                                                       [33;1H~                                                                                                                       [34;1H~                                                                                                                       [35;1H~                                                                                                                       [36;1H~                                                                                                                       [37;1H~                                                                                                                       [38;1H~                                                                                                                       [39;1H~                                                                                                                       [40;1H~                                                                                                                       [41;1H~                                                                                                                       [42;1H~                                                                                                                       [43;1H~                                                                                                                       [44;1H~                                                                                                                       [45;1H~                                                                                                                       [46;1H~                                                                                                                       [47;1H~                                                                                                                       [48;1H~                                                                                                                       [49;1H~                                                                                                                       [m[50;103H2,19[10CAll[2;19H[?25h[?25l[50;93H^M[2;19H[50;93H  [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;18H[50;106H8[2;18H[?25h[?25l[50;93H~@k[2;18H[50;93H   [2;17H[50;106H7[2;17H[?25h[?25l[50;93H~@k[2;17H[50;93H   [2;16H[50;106H6[2;16H[?25h[?25l[50;93H~@k[2;16H[50;93H   [2;15H[50;106H5[2;15H[?25h[?25l[50;93H~@k[2;15H[50;93H   [2;14H[50;106H4[2;14H[?25h[?25l[50;93H~@k[2;14H[50;93H   [2;13H[50;106H3[2;13H[?25h[?25l[50;93H~@k[2;13H[50;93H   [2;12H[50;106H2[2;12H[?25h[?25l[50;93H~@k[2;12H[50;93H   [2;11H[50;106H1[2;11H[?25h[?25l[50;93H~@k[2;11H[50;93H   [2;10H[50;106H0[2;10H[?25h[?25l[50;93H~@k[2;10H[50;93H   [2;11H[50;106H1[2;11H[?25h[?25l[50;93H~@k[2;11H[50;93H   [2;12H[50;106H2[2;12H[?25h[?25l[50;93H~@k[2;12H[50;93H   [2;13H[50;106H3[2;13H[?25h[?25l[50;93H~@k[2;13H[50;93H   [2;14H[50;106H4[2;14H[?25h[?25l[50;93H~@k[2;14H[50;93H   [2;15H[50;106H5[2;15H[?25h[?25l[50;93H~@k[2;15H[50;93H   [2;16H[50;106H6[2;16H[?25h[?25l[50;93H~@k[2;16H[50;93H   [2;17H[50;106H7[2;17H[?25h[?25l[50;93H~@k[2;17H[50;93H   [2;18H[50;106H8[2;18H[?25h[?25l[50;93H~@k[2;18H[50;93H   [2;19H[50;106H9[2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93H~@k[2;19H[50;93H   [2;19H[?25h[?25l[50;93Hs[2;19H[50;93H [2;19H[50;93Hcl[2;19H[50;93H  [2;19H[50;1H[1m-- INSERT --[m[50;103H[K[50;103H2,19[10CAll[2;19H[?25h[?25l[2;18H[K[50;106H8[2;18H[?25h[?25ls[50;106H9[2;19H[?25h[?25l[3;1H[K[50;103H3,1 [3;1H[?25h[?25lw[50;105H2[3;2H[?25h[?25lq[50;105H3[3;3H[?25h[?25l[4;1H[K[50;103H4,1[4;1H[?25h[?25l[94m~                                                                                                                       [m[50;103H3,3[3;3H[?25h[?25l[3;2H[K[50;105H2[3;2H[?25h[?25l[3;1H[K[50;105H1[3;1H[?25h[?25l[94m~                                                                                                                       [m[50;103H2,19[2;19H[?25h[?25l[3;1H[K[50;103H3,1 [3;1H[?25h[?25l[94m~                                                                                                                       [m[50;103H2,19[2;19H[?25h[50;1H[K[2;18H[?25l[50;93H^[[2;18H[50;93H  [2;19H[50;103H2,18[10CAll[2;18H[?25h[?25l[50;93H:[2;18H[50;93H[K[50;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"writeup.txt" [dos] 2L, 42C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit -,[K.[Km "Added part 2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit -m "Added part 2 (hobby) to writeup:[K"
+[master 496c033] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ guit[K[K[Kit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': git push origin master
+Password for 'https://git push origin master@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-CameronStevenson/'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': Camerons Stevenbs  son
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To http://github.com/csci241-20s/lab-1-CameronStevenson
+   d9f84c9..496c033  master -> master
+gstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ touch writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ touch[K[K[K[K[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git[K[K[Kg[Ktouch yu[K[Kusername.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ giut[K[Kt add username [K.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit help add
+[?1049h[22;0;0t[?1h=GIT-ADD(1)                                          Git Manual                                          GIT-ADD(1)[m
+[m
+[1mNAME[0m[m
+       git-add - Add file contents to the index[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4madd[24m [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p][m
+                 [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]][m
+                 [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize][m
+                 [--chmod=(+|-)x] [--] [<pathspec>...][m
+[m
+[1mDESCRIPTION[0m[m
+       This command updates the index using the current content found in the working tree, to prepare the content[m
+       staged for the next commit. It typically adds the current content of existing paths as a whole, but with[m
+       some options it can also be used to add content with only part of the changes made to the working tree[m
+       files applied, or remove paths that do not exist in the working tree anymore.[m
+[m
+       The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as[m
+       the contents of the next commit. Thus after making any changes to the working tree, and before running the[m
+       commit command, you must use the [1madd[0m command to add any new or modified files to the index.[m
+[m
+       This command can be performed multiple times before a commit. It only adds the content of the specified[m
+       file(s) at the time the add command is run; if you want subsequent changes included in the next commit,[m
+       then you must run [1mgit[0m [1madd[0m again to add the new content to the index.[m
+[m
+       The [1mgit[0m [1mstatus[0m command can be used to obtain a summary of which files have changes that are staged for the[m
+       next commit.[m
+[m
+       The [1mgit[0m [1madd[0m command will not add ignored files by default. If any ignored files were explicitly specified[m
+       on the command line, [1mgit[0m [1madd[0m will fail with a list of ignored files. Ignored files reached by directory[m
+       recursion or filename globbing performed by Git (quote your globs before the shell) will be silently[m
+       ignored. The [4mgit[24m [4madd[24m command can be used to add ignored files with the [1m-f[0m (force) option.[m
+[m
+       Please see [1mgit-commit[0m(1) for alternative ways to add content to a commit.[m
+[m
+[1mOPTIONS[0m[m
+       <pathspec>...[m
+           Files to add content from. Fileglobs (e.g.  [1m*.c[0m) can be given to add all matching files. Also a leading[m
+           directory name (e.g.  [1mdir[0m to add [1mdir/file1[0m and [1mdir/file2[0m) can be given to update the index to match the[m
+           current state of the directory as a whole (e.g. specifying [1mdir[0m will record not just a file [1mdir/file1[0m[m
+           modified in the working tree, a file [1mdir/file2[0m added to the working tree, but also a file [1mdir/file3[0m[m
+           removed from the working tree. Note that older versions of Git used to ignore removed files; use[m
+           [1m--no-all[0m option if you want to add modified or new files but ignore removed ones.[m
+[m
+           For more details about the <pathspec> syntax, see the [4mpathspec[24m entry in [1mgitglossary[0m(7).[m
+[m
+       -n, --dry-run[m
+           Don’t actually add the file(s), just show if they exist and/or will be ignored.[m
+[m
+       -v, --verbose[m
+           Be verbose.[m
+[m
+       -f, --force[m
+           Allow adding otherwise ignored files.[m
+[m
+       -i, --interactive[m
+[7m Manual page git-add(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add usr[Kername,t[K[K.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ edity [K[K username.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;57r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[57;1H"~/csci241/lab-1-CameronStevenson/username.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [m[57;100H0,0-1[9CAll[1;1H[?25h[?25l[57;90H^[[1;1H[57;92H[[1;1H[57;90H   [1;1H[57;90H^[[1;1H[57;92H[[1;1H[57;93H2[1;1H[57;94H;[1;1H[57;95H2[1;1H[57;90H      [1;1H[?25h[?25l[57;90HC[1;1H[57;90H [1;1H[57;90Hc$[1;1H[57;90H  [1;1H[57;1H[1m-- INSERT --[m[57;13H[K[57;100H0,1[11CAll[1;1H[?25h[?25la[57;100H1,2[1;2H[?25h[?25lm[57;102H3[1;3H[?25h[?25le[57;102H4[1;4H[?25h[?25lr[57;102H5[1;5H[?25h[?25lo[57;102H6[1;6H[?25h[?25l[1;5H[K[57;102H5[1;5H[?25h[?25l[1;4H[K[57;102H4[1;4H[?25h[?25l[1;3H[K[57;102H3[1;3H[?25h[?25l[1;2H[K[57;102H2[1;2H[?25h[?25l[1;1H[K[57;102H1[1;1H[?25h[?25lc[57;102H2[1;2H[?25h[?25la[57;102H3[1;3H[?25h[?25lm[57;102H4[1;4H[?25h[?25le[57;102H5[1;5H[?25h[?25lr[57;102H6[1;6H[?25h[?25l[1;5H[K[57;102H5[1;5H[?25h[?25l[1;4H[K[57;102H4[1;4H[?25h[?25l[1;3H[K[57;102H3[1;3H[?25h[?25l[1;2H[K[57;102H2[1;2H[?25h[?25l[1;1H[K[57;102H1[1;1H[?25h[?25lC[57;102H2[1;2H[?25h[?25la[57;102H3[1;3H[?25h[?25lm[57;102H4[1;4H[?25h[?25le[57;102H5[1;5H[?25h[?25lr[57;102H6[1;6H[?25h[?25lo[57;102H7[1;7H[?25h[?25ln[57;102H8[1;8H[?25h[?25l[57;102H9[1;9H[?25h[?25lS[57;102H10[1;10H[?25h[?25lt[57;103H1[1;11H[?25h[?25le[57;103H2[1;12H[?25h[?25lv[57;103H3[1;13H[?25h[?25le[57;103H4[1;14H[?25h[?25ln[57;103H5[1;15H[?25h[?25ls[57;103H6[1;16H[?25h[?25lo[57;103H7[1;17H[?25h[?25ln[57;103H8[1;18H[?25h[?25l,[57;103H9[1;19H[?25h[?25l[57;102H20[1;20H[?25h[?25ls[57;103H1[1;21H[?25h[?25lt[57;103H2[1;22H[?25h[?25le[57;103H3[1;23H[?25h[?25lv[57;103H4[1;24H[?25h[?25le[57;103H5[1;25H[?25h[?25ln[57;103H6[1;26H[?25h[?25lc[57;103H7[1;27H[?25h[?25l9[57;103H8[1;28H[?25h[?25l,[57;103H9[1;29H[?25h[?25l[57;102H30[1;30H[?25h[?25lC[57;103H1[1;31H[?25h[?25la[57;103H2[1;32H[?25h[?25lm[57;103H3[1;33H[?25h[?25le[57;103H4[1;34H[?25h[?25lr[57;103H5[1;35H[?25h[?25lo[57;103H6[1;36H[?25h[?25ln[57;103H7[1;37H[?25h[?25lS[57;103H8[1;38H[?25h[?25lt[57;103H9[1;39H[?25h[?25le[57;102H40[1;40H[?25h[?25lv[57;103H1[1;41H[?25h[?25le[57;103H2[1;42H[?25h[?25ln[57;103H3[1;43H[?25h[?25ls[57;103H4[1;44H[?25h[?25lo[57;103H5[1;45H[?25h[?25ln[57;103H6[1;46H[?25h[?25l[2;1H[K[57;100H2,1 [2;1H[?25h[?25l[3;1H[K[57;100H3[3;1H[?25h[?25l[94m~                                                                                                                    [m[57;100H2[2;1H[?25h[?25l[94m~                                                                                                                    [m[57;100H1,46[1;46H[?25h[?25l[2;1H[K[57;100H2,1 [2;1H[?25h[?25l:[57;102H2[2;2H[?25h[?25l[2;1H[K[57;102H1[2;1H[?25h[?25l[94m~                                                                                                                    [m[57;100H1,46[1;46H[?25h[57;1H[K[1;45H[?25l[57;90H^[[1;45H[57;90H  [1;46H[57;100H1,45[10CAll[1;45H[?25h[?25l[57;90H^M[1;45H[57;90H  [1;45H[?25h[?25l[57;90H~@k[1;45H[57;90H   [1;45H[?25h[?25l[57;90H:[1;45H[57;90H[K[57;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"username.txt" 1L, 46C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ g[Kgit commit -m "Added username.txt"
+[master 831928d] Added username.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': Casmeron      meron Stevenson
+Password for 'https://Cameron Stevenson@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-CameronStevenson/'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': Cameron S nStevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 269 bytes | 269.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To http://github.com/csci241-20s/lab-1-CameronStevenson
+   496c033..831928d  master -> master
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git checkourt[K[Kt[K[K[K[Ko[Kkout username.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git checkut[K[Kout
+Your branch is up to date with 'origin/master'.
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git t[Kstatus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.writeup.txt.swp[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git [K[K[K[Kgit add .,w[K[Kwriteup.[K,.[K[K.txt.swp
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .writeup.txt.swp[m
+
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git [K rm .writeup.txt.swp
+error: the following file has changes staged in the index:
+    .writeup.txt.swp
+(use --cached to keep the file, or -f to force removal)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ -cha[K[K[Ka[Kcached
+-cached: command not found
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ -[Kcommit [K[K[K[K[K[K[Kgit commit -m "trying to fix t[Kweird [K[K[K[K[K[Kuntracked files thing?[K"[K in stats[Kus?[K"
+[master 73a73e3] trying to fix untracked files thing in status
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .writeup.txt.swp
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': CameronStevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 509 bytes | 509.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To http://github.com/csci241-20s/lab-1-CameronStevenson
+   831928d..73a73e3  master -> master
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ g[Kgit rm .wir[Kt[Kr[K[Kriteup.txt.swp
+rm '.writeup.txt.swp'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit -m "deleting this fiuel[K[K[Kle. Idk where it camer[K from"
+[master 490f3ef] deleting this file. Idk where it came from
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 .writeup.txt.swp
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': CameronStevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 250 bytes | 250.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To http://github.com/csci241-20s/lab-1-CameronStevenson
+   73a73e3..490f3ef  master -> master
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blam [Ke
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame L<15,10[K2[K[K20>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git Blam[K[K[Klam[K[K[K[K[K L<14[K5,20:[K>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame<[K[K[K[K[K[K[K[K[K[KL<14[K5,20:[K?[K>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame username.txt
+[?1h=[K[?1l>stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame -L<14[K5,>[K20?[K>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame -L <15,20>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git blame -L <14,[K[K5,20> user[K[K[K[K[K[K[K[K[K[K[K1,2> username.txt
+bash: 1,2: No such file or directory
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git checkout -b [C n e w b r a c n [1P [1P n c h 
+Switched to a new branch 'newbranch'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git branch <Question [K3[K[K[K[K[K[K[K[K[Kquestion3<[K>[C[C <question3>- <question3>[C <question3>[1P<question3>m <question3>[C[C[C[C[C[C[C[C[C[C[C[C
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git branch -m <question3>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git branch -M <question3>
+bash: syntax error near unexpected token `newline'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git brn[Kanch -M question3
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git status
+On branch question3
+nothing to commit, working tree clean
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ edit writeup.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;57r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[57;1H"~/csci241/lab-1-CameronStevenson/writeup.txt" [dos] 2L, 42C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H1) Cameron Stevenson
+2) Hobby: Podcasts
+[94m~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [23;1H~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [m[57;100H2,18[10CAll[2;18H[?25h[?25l[57;90H^M[2;18H[57;90H  [2;18H[?25h[?25l[57;90H^M[2;18H[57;90H  [2;18H[?25h[?25l[57;90H~@k[2;18H[57;90H   [2;18H[?25h[?25l[57;90H<20>[2;18H[57;90H    [2;18H[?25h[?25l[57;90Ha[2;18H[57;90H [2;19H[57;1H[1m-- INSERT --[m[57;13H[K[57;100H2,19[10CAll[2;19H[?25h[?25ls[57;102H20[2;20H[?25h[?25l[2;19H[K[57;102H19[2;19H[?25h[?25l[3;1H[K[57;100H3,1 [3;1H[?25h[?25l3[57;102H2[3;2H[?25h[?25l)[57;102H3[3;3H[?25h[?25l[57;102H4[3;4H[?25h[?25lF[57;102H5[3;5H[?25h[?25la[57;102H6[3;6H[?25h[?25lv[57;102H7[3;7H[?25h[?25lo[57;102H8[3;8H[?25h[?25lr[57;102H9[3;9H[?25h[?25le[57;102H10[3;10H[?25h[?25li[57;103H1[3;11H[?25h[?25l[3;10H[K[57;103H0[3;10H[?25h[?25l[3;9H[K[57;102H9 [3;9H[?25h[?25li[57;102H10[3;10H[?25h[?25lt[57;103H1[3;11H[?25h[?25le[57;103H2[3;12H[?25h[?25l[57;103H3[3;13H[?25h[?25lS[57;103H4[3;14H[?25h[?25lo[57;103H5[3;15H[?25h[?25ln[57;103H6[3;16H[?25h[?25lg[57;103H7[3;17H[?25h[?25l:[57;103H8[3;18H[?25h[?25l[57;103H9[3;19H[?25h[?25lN[57;102H20[3;20H[?25h[?25lo[57;103H1[3;21H[?25h[?25l[57;103H2[3;22H[?25h[?25lQ[57;103H3[3;23H[?25h[?25lu[57;103H4[3;24H[?25h[?25la[57;103H5[3;25H[?25h[?25lr[57;103H6[3;26H[?25h[?25lt[57;103H7[3;27H[?25h[?25le[57;103H8[3;28H[?25h[?25lr[57;103H9[3;29H[?25h[?25l[57;102H30[3;30H[?25h[?25l[57;102H29[3;29H[?25h[?25l[3;28H[K[57;103H8[3;28H[?25h[?25l[3;27H[K[57;103H7[3;27H[?25h[?25l[3;26H[K[57;103H6[3;26H[?25h[?25l[3;25H[K[57;103H5[3;25H[?25h[?25l[3;24H[K[57;103H4[3;24H[?25h[?25l[3;23H[K[57;103H3[3;23H[?25h[?25l[3;22H[K[57;103H2[3;22H[?25h[?25l[57;103H1[3;21H[?25h[?25l[3;20H[K[57;103H0[3;20H[?25h[?25l[3;19H[K[57;102H19[3;19H[?25h[?25lT[57;102H20[3;20H[?25h[?25lh[57;103H1[3;21H[?25h[?25le[57;103H2[3;22H[?25h[?25l[57;103H3[3;23H[?25h[?25lC[57;103H4[3;24H[?25h[?25lo[57;103H5[3;25H[?25h[?25l[3;24H[K[57;103H4[3;24H[?25h[?25l[3;23H[K[57;103H3[3;23H[?25h[?25l[57;103H2[3;22H[?25h[?25l[3;21H[K[57;103H1[3;21H[?25h[?25l[3;20H[K[57;103H0[3;20H[?25h[?25l[3;19H[K[57;102H19[3;19H[?25h[?25lT[57;102H20[3;20H[?25h[?25lh[57;103H1[3;21H[?25h[?25le[57;103H2[3;22H[?25h[?25l[57;103H3[3;23H[?25h[?25lo[57;103H4[3;24H[?25h[?25l[3;23H[K[57;103H3[3;23H[?25h[?25lO[57;103H4[3;24H[?25h[?25lc[57;103H5[3;25H[?25h[?25le[57;103H6[3;26H[?25h[?25la[57;103H7[3;27H[?25h[?25ln[57;103H8[3;28H[?25h[?25l[3;27H[K[57;103H7[3;27H[?25h[?25l[3;26H[K[57;103H6[3;26H[?25h[?25l[3;25H[K[57;103H5[3;25H[?25h[?25l[3;24H[K[57;103H4[3;24H[?25h[?25l[3;23H[K[57;103H3[3;23H[?25h[?25l[57;103H2[3;22H[?25h[?25l[3;21H[K[57;103H1[3;21H[?25h[?25l[3;20H[K[57;103H0[3;20H[?25h[?25l[3;19H[K[57;102H19[3;19H[?25h[?25lN[57;102H20[3;20H[?25h[?25lo[57;103H1[3;21H[?25h[?25lq[57;103H2[3;22H[?25h[?25l[3;21H[K[57;103H1[3;21H[?25h[?25l[57;103H2[3;22H[?25h[?25lQ[57;103H3[3;23H[?25h[?25lu[57;103H4[3;24H[?25h[?25la[57;103H5[3;25H[?25h[?25lr[57;103H6[3;26H[?25h[?25lt[57;103H7[3;27H[?25h[?25lr[57;103H8[3;28H[?25h[?25l[3;27H[K[57;103H7[3;27H[?25h[?25le[57;103H8[3;28H[?25h[?25lr[57;103H9[3;29H[?25h[?25l[57;102H30[3;30H[?25h[?25lb[57;103H1[3;31H[?25h[?25ly[57;103H2[3;32H[?25h[?25l[57;103H3[3;33H[?25h[?25lL[57;103H4[3;34H[?25h[?25le[57;103H5[3;35H[?25h[?25ld[57;103H6[3;36H[?25h[?25l[57;103H7[3;37H[?25h[?25lZ[57;103H8[3;38H[?25h[?25le[57;103H9[3;39H[?25h[?25lp[57;102H40[3;40H[?25h[?25lp[57;103H1[3;41H[?25h[?25ll[57;103H2[3;42H[?25h[?25le[57;103H3[3;43H[?25h[?25li[57;103H4[3;44H[?25h[?25ln[57;103H5[3;45H[?25h[?25l[3;44H[K[57;103H4[3;44H[?25h[?25l[3;43H[K[57;103H3[3;43H[?25h[?25l[3;42H[K[57;103H2[3;42H[?25h[?25l[3;41H[K[57;103H1[3;41H[?25h[?25le[57;103H2[3;42H[?25h[?25ll[57;103H3[3;43H[?25h[?25li[57;103H4[3;44H[?25h[?25ln[57;103H5[3;45H[?25h[?25l[4;1H[K[57;100H4,1 [4;1H[?25h[?25l[94m~                                                                                                                    [m[57;100H3,45[3;45H[?25h[57;1H[K[3;44H[?25l[57;90H^[[3;44H[57;90H  [3;45H[57;100H3,44[10CAll[3;44H[?25h[?25l[57;90H^M[3;44H[57;90H  [3;44H[?25h[?25l[57;90H:[3;44H[57;90H[K[57;1H:[?2004h[?25hw[?25l[?25he[?25l[?25h[?25l[57;3H[K[57;3H[?25hq[?25l[?25h[?25l[?2004l"writeup.txt" [dos] 3L, 88C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit - [Km "a[KAdded B[KSong name [K[K[K[K[K[K[K[K[K[KFav song on [K[K[Kto writu[Keup on new branch:[K"
+On branch question3
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ add writeup.txt
+
+Command 'add' not found, did you mean:
+
+  command 'ldd' from deb libc-bin
+  command 'dad' from deb debian-dad
+  command 'aid' from deb id-utils
+  command 'adbd' from deb android-tools-adbd
+  command 'and' from deb and
+  command 'pdd' from deb pdd
+  command 'tdd' from deb devtodo
+  command 'atd' from deb at
+  command 'dd' from deb coreutils
+  command 'ddd' from deb ddd
+  command 'axd' from deb afnix
+  command 'adb' from deb adb
+  command 'amd' from deb am-utils
+  command 'ad' from deb netatalk
+
+Try: apt install <deb name>
+
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git add writeup.txt
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ commit - [K,[K.,[K[Km "AA[Kdded gf[Kfa[K[K[Kfav song to writeup on new ba[Kranch"
+commit: command not found
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git commit - m[K[Km "Added fav song to writeup on new branch"
+[question3 dcf3b2e] Added fav song to writeup on new branch
+ 1 file changed, 1 insertion(+)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git merge [K[K[K[K[K[K[K[K[K[Kgit checkout master[Kr
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git merge question3
+Updating 490f3ef..dcf3b2e
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git branch -d question3
+Deleted branch question3 (was dcf3b2e).
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git push
+Username for 'https://github.com': Cameron Stve  evenson
+Password for 'https://Cameron Stevenson@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-CameronStevenson/'
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ git po[Kush
+Username for 'https://github.com': CameronStevenson
+Password for 'https://CameronStevenson@github.com': 
+warning: redirecting to https://github.com/csci241-20s/lab-1-CameronStevenson/
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To http://github.com/csci241-20s/lab-1-CameronStevenson
+   490f3ef..dcf3b2e  master -> master
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson$ cd src
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src$ cd lab1
+bash: cd: lab1: No such file or directory
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src$ cd lab1[K[K[K[Kmain
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main$ cdjava
+cdjava: command not found
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main$ cd java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java$ ls
+lab1
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java$ cd lab1
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ gradle build
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [72ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [172ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [272ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [372ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [472ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [572ms][m[39D[1B[1m> Evaluating settings > Compiling /home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle into local compilati[m[116D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [672ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [776ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1' is not part of the build defined by settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 2s
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ ls
+gradle	Hello.java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ gradle build hello.,[K[K[K[K[K[K[KHello.java
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1' is not part of the build defined by settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 389ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ gradle run
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1' is not part of the build defined by settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 398ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ cd Hello.java
+bash: cd: Hello.java: Not a directory
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ cd[K[Kls
+gradle	Hello.java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ build[K[K[K[K[Kgradle build Hello.java
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1' is not part of the build defined by settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 385ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ --info[K[K[K[K[K[Krun[K[K[Kgradle run --fi[K[Kinfo
+Initialized native services in: /home/stevenc9/.gradle/native
+The client will now receive all logging from the daemon (pid: 29766). The daemon log file: /home/stevenc9/.gradle/daemon/6.1/daemon-29766.out.log
+Starting 5th build in daemon [uptime: 5 mins 34.842 secs, performance: 99%, non-heap usage: 11% of 268.4 MB]
+Using 8 worker leases.
+Starting Build
+Settings evaluated using settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'.
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1' is not part of the build defined by settings file '/home/stevenc9/csci241/lab-1-CameronStevenson/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 378ms
+[1m<[0;1m-------------> 0% WAITING[m[26D[2K[0m[?12l[?25hstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ javac Hello.java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ r[Kjava Hello.java
+Hello, world!
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ [Kstevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ edit Hello.java
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H"~/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java" 7L, 126C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mpackage[m lab1;
+
+[32mpublic[m [32mclass[m Hello {
+  [32mpublic[m [32mstatic[m [32mvoid[m main(String[] args) {
+    System.out.println([31m"Hello, world!"[m);
+  }
+}
+[94m~                                                                                                                               [9;1H~                                                                                                                               [10;1H~                                                                                                                               [11;1H~                                                                                                                               [12;1H~                                                                                                                               [13;1H~                                                                                                                               [14;1H~                                                                                                                               [15;1H~                                                                                                                               [16;1H~                                                                                                                               [17;1H~                                                                                                                               [18;1H~                                                                                                                               [19;1H~                                                                                                                               [20;1H~                                                                                                                               [21;1H~                                                                                                                               [22;1H~                                                                                                                               [23;1H~                                                                                                                               [24;1H~                                                                                                                               [25;1H~                                                                                                                               [26;1H~                                                                                                                               [27;1H~                                                                                                                               [28;1H~                                                                                                                               [29;1H~                                                                                                                               [30;1H~                                                                                                                               [31;1H~                                                                                                                               [32;1H~                                                                                                                               [33;1H~                                                                                                                               [34;1H~                                                                                                                               [35;1H~                                                                                                                               [36;1H~                                                                                                                               [37;1H~                                                                                                                               [38;1H~                                                                                                                               [39;1H~                                                                                                                               [40;1H~                                                                                                                               [41;1H~                                                                                                                               [42;1H~                                                                                                                               [43;1H~                                                                                                                               [44;1H~                                                                                                                               [45;1H~                                                                                                                               [46;1H~                                                                                                                               [47;1H~                                                                                                                               [48;1H~                                                                                                                               [49;1H~                                                                                                                               [50;1H~                                                                                                                               [51;1H~                                                                                                                               [52;1H~                                                                                                                               [53;1H~                                                                                                                               [54;1H~                                                                                                                               [55;1H~                                                                                                                               [56;1H~                                                                                                                               [57;1H~                                                                                                                               [m[58;111H1,1[11CAll[1;1H[?25h[?25l[58;101H^[[1;1H[58;103H[[1;1H[58;104H2[1;1H[58;101H    [1;1H[58;101H^[[1;1H[58;103H[[1;1H[58;104H2[1;1H[58;105H;[1;1H[58;101H     [1;1H[?25h[?25l[58;101H~@k[1;1H[58;101H   [1;2H[58;113H2[1;2H[?25h[?25l[58;101H~@k[1;2H[58;101H   [1;1H[58;113H1[1;1H[?25h[?25l[58;101H~@k[1;1H[58;101H   [2;1H[58;111H2,0-1[2;1H[?25h[?25l[58;101H~@k[2;1H[58;101H   [1;13H[58;111H1,13 [1;13H[?25h[?25l[58;101H~@k[1;13H[58;101H   [1;12H[58;114H2[1;12H[?25h[?25l[58;101H~@k[1;12H[58;101H   [2;1H[58;111H2,0-1[2;1H[?25h[?25l[58;101H~@k[2;1H[58;101H   [3;12H[58;111H3,12 [3;12H[?25h[?25l[58;101H~@k[3;12H[58;101H   [4;12H[58;111H4[4;12H[?25h[?25l[58;101H~@k[4;12H[58;101H   [5;12H[58;111H5[5;12H[?25h[?25l[58;101H~@k[5;12H[58;101H   [5;13H[58;114H3[5;13H[?25h[?25l[58;101H~@k[5;13H[58;101H   [5;14H[58;114H4[5;14H[?25h[?25l[58;101H~@k[5;14H[58;101H   [5;15H[58;114H5[5;15H[?25h[?25l[58;101H~@k[5;15H[58;101H   [5;16H[58;114H6[5;16H[?25h[?25l[58;101H~@k[5;16H[58;101H   [5;17H[58;114H7[5;17H[?25h[?25l[58;101H~@k[5;17H[58;101H   [5;18H[58;114H8[5;18H[?25h[?25l[58;101H~@k[5;18H[58;101H   [5;19H[58;114H9[5;19H[?25h[?25l[58;101H~@k[5;19H[58;101H   [5;20H[58;113H20[5;20H[?25h[?25l[58;101H~@k[5;20H[58;101H   [5;21H[58;114H1[5;21H[?25h[?25l[58;101H~@k[5;21H[58;101H   [5;22H[58;114H2[5;22H[?25h[?25l[58;101H~@k[5;22H[58;101H   [5;23H[106m([15C)[m[58;114H3[5;23H[?25h[?25l[58;101H~@k[5;23H[58;101H   [5;24H([15C)[58;114H4[5;24H[?25h[?25l[58;101H~@k[5;24H[58;101H   [5;25H[58;114H5[5;25H[?25h[?25l[58;101H~@k[5;25H[58;101H   [5;26H[58;114H6[5;26H[?25h[?25l[58;101H~@k[5;26H[58;101H   [5;27H[58;114H7[5;27H[?25h[?25l[58;101H~@k[5;27H[58;101H   [5;28H[58;114H8[5;28H[?25h[?25l[58;101H~@k[5;28H[58;101H   [5;29H[58;114H9[5;29H[?25h[?25l[58;101H~@k[5;29H[58;101H   [5;30H[58;113H30[5;30H[?25h[?25l[58;101H~@k[5;30H[58;101H   [5;31H[58;114H1[5;31H[?25h[?25l[58;101H~@k[5;31H[58;101H   [5;32H[58;114H2[5;32H[?25h[?25l[58;101H~@k[5;32H[58;101H   [5;33H[58;114H3[5;33H[?25h[?25l[58;101H~@k[5;33H[58;101H   [5;34H[58;114H4[5;34H[?25h[?25l[58;101H^Z[5;34H[58;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[?2004l
+[1]+  Stopped                 edit Hello.java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ edit Hello.java
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: stevenc9   dated: Fri Apr 10 20:49:19 2020
+[9Cfile name: ~stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java
+[10Cmodified: no
+[9Cuser name: stevenc9   host name: cf418-18
+[8Cprocess ID: 30129 (still running)
+While opening file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+[13Cdated: Fri Apr 10 18:58:31 2020
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java
+[57;128H.[58;1Hswp"
+    to avoid this message.
+
+[32mSwap file "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[58;1H[K[58;1H[?2004l
+[?2004l[?1l>[?1049l[23;0;0tWarning: program returned non-zero exit code #1
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ edit Hello.java[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Keidt[K[K[Kdit Hello.a[Kjava
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: stevenc9   dated: Fri Apr 10 20:49:19 2020
+[9Cfile name: ~stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java
+[10Cmodified: no
+[9Cuser name: stevenc9   host name: cf418-18
+[8Cprocess ID: 30129 (still running)
+While opening file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+[13Cdated: Fri Apr 10 18:58:31 2020
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java
+[57;128H.[58;1Hswp"
+    to avoid this message.
+
+[32mSwap file "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[58;1H[K[58;1H[?2004l
+[?2004l[?1l>[?1049l[23;0;0tWarning: program returned non-zero exit code #1
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ git reset Hello.java
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ edit Hello.java
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: stevenc9   dated: Fri Apr 10 20:49:19 2020
+[9Cfile name: ~stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java
+[10Cmodified: no
+[9Cuser name: stevenc9   host name: cf418-18
+[8Cprocess ID: 30129 (still running)
+While opening file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+[13Cdated: Fri Apr 10 18:58:31 2020
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/home/stevenc9/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java
+[57;128H.[58;1Hswp"
+    to avoid this message.
+
+[32mSwap file "~/csci241/lab-1-CameronStevenson/src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[58;1H[K[58;1H[?2004l
+[?2004l[?1l>[?1049l[23;0;0tWarning: program returned non-zero exit code #1
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ rm .Jel[K[K[KHello.java.swp
+stevenc9@cf418-18:~/csci241/lab-1-CameronStevenson/src/main/java/lab1$ edit Hello.java
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H"~/csci241/lab-1-CameronStevenson/src/main/java/lab1/Hello.java" 7L, 126C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mpackage[m lab1;
+
+[32mpublic[m [32mclass[m Hello {
+  [32mpublic[m [32mstatic[m [32mvoid[m main(String[] args) {
+    System.out.println([31m"Hello, world!"[m);
+  }
+}
+[94m~                                                                                                                               [9;1H~                                                                                                                               [10;1H~                                                                                                                               [11;1H~                                                                                                                               [12;1H~                                                                                                                               [13;1H~                                                                                                                               [14;1H~                                                                                                                               [15;1H~                                                                                                                               [16;1H~                                                                                                                               [17;1H~                                                                                                                               [18;1H~                                                                                                                               [19;1H~                                                                                                                               [20;1H~                                                                                                                               [21;1H~                                                                                                                               [22;1H~                                                                                                                               [23;1H~                                                                                                                               [24;1H~                                                                                                                               [25;1H~                                                                                                                               [26;1H~                                                                                                                               [27;1H~                                                                                                                               [28;1H~                                                                                                                               [29;1H~                                                                                                                               [30;1H~                                                                                                                               [31;1H~                                                                                                                               [32;1H~                                                                                                                               [33;1H~                                                                                                                               [34;1H~                                                                                                                               [35;1H~                                                                                                                               [36;1H~                                                                                                                               [37;1H~                                                                                                                               [38;1H~                                                                                                                               [39;1H~                                                                                                                               [40;1H~                                                                                                                               [41;1H~                                                                                                                               [42;1H~                                                                                                                               [43;1H~                                                                                                                               [44;1H~                                                                                                                               [45;1H~                                                                                                                               [46;1H~                                                                                                                               [47;1H~                                                                                                                               [48;1H~                                                                                                                               [49;1H~                                                                                                                               [50;1H~                                                                                                                               [51;1H~                                                                                                                               [52;1H~                                                                                                                               [53;1H~                                                                                                                               [54;1H~                                                                                                                               [55;1H~                                                                                                                               [56;1H~                                                                                                                               [57;1H~                                                                                                                               [m[58;111H1,1[11CAll[1;1H[?25h[?25l[58;101H^[[1;1H[58;101H  [1;1H[?25h[?25l[58;101H~@k[1;1H[58;101H   [2;1H[58;111H2,0-1[2;1H[?25h[?25l[58;101H~@k[2;1H[58;101H   [3;1H[58;111H3,1  [3;1H[?25h[?25l[58;101H~@k[3;1H[58;101H   [3;2H[58;113H2[3;2H[?25h[?25l[58;101H~@k[3;2H[58;101H   [3;3H[58;113H3[3;3H[?25h[?25l[58;101H~@k[3;3H[58;101H   [3;4H[58;113H4[3;4H[?25h[?25l[58;101H~@k[3;4H[58;101H   [3;5H[58;113H5[3;5H[?25h[?25l[58;101H~@k[3;5H[58;101H   [3;6H[58;113H6[3;6H[?25h[?25l[58;101H~@k[3;6H[58;101H   [3;7H[58;113H7[3;7H[?25h[?25l[58;101H~@k[3;7H[58;101H   [3;8H[58;113H8[3;8H[?25h[?25l[58;101H~@k[3;8H[58;101H   [3;9H[58;113H9[3;9H[?25h[?25l[58;101H~@k[3;9H[58;101H   [3;10H[58;113H10[3;10H[?25h[?25l[58;101H~@k[3;10H[58;101H   [3;11H[58;114H1[3;11H[?25h[?25l[58;101H~@k[3;11H[58;101H   [3;12H[58;114H2[3;12H[?25h[?25l[58;101H~@k[3;12H[58;101H   [3;13H[58;114H3[3;13H[?25h[?25l[58;101H~@k[3;13H[58;101H   [3;14H[58;114H4[3;14H[?25h[?25l[58;101H~@k[3;14H[58;101H   [3;15H[58;114H5[3;15H[?25h[?25l[58;101H~@k[3;15H[58;101H   [3;16H[58;114H6[3;16H[?25h[?25l[58;101H~@k[3;16H[58;101H   [3;17H[58;114H7[3;17H[?25h[?25l[58;101H~@k[3;17H[58;101H   [3;18H[58;114H8[3;18H[?25h[?25l[58;101H~@k[3;18H[58;101H   [3;19H[58;114H9[3;19H[?25h[?25l[58;101H~@k[3;19H[58;101H   [3;20H[106m{[7;1H}[m[58;113H20[3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [3;20H[?25h[?25l[58;101H~@k[3;20H[58;101H   [4;20H[3;20H{[7;1H}[58;111H4[4;20H[?25h[?25l[58;101H~@k[4;20H[58;101H   [5;20H[58;111H5[5;20H[?25h[?25l[58;101H~@k[5;20H[58;101H   [5;21H[58;114H1[5;21H[?25h[?25l[58;101H~@k[5;21H[58;101H   [5;22H[58;114H2[5;22H[?25h[?25l[58;101H~@k[5;22H[58;101H   [5;23H[106m([15C)[m[58;114H3[5;23H[?25h[?25l[58;101H~@k[5;23H[58;101H   [5;24H([15C)[58;114H4[5;24H[?25h[?25l[58;101H~@k[5;24H[58;101H   [5;25H[58;114H5[5;25H[?25h[?25l[58;101H~@k[5;25H[58;101H   [5;26H[58;114H6[5;26H[?25h[?25l[58;101H~@k[5;26H[58;101H   [5;27H[58;114H7[5;27H[?25h[?25l[58;101H~@k[5;27H[58;101H   [5;28H[58;114H8[5;28H[?25h[?25l[58;101H~@k[5;28H[58;101H   [5;29H[58;114H9[5;29H[?25h[?25l[58;101H~@k[5;29H[58;101H   [5;30H[58;113H30[5;30H[?25h[?25l[58;101H~@k[5;30H[58;101H   [5;31H[58;114H1[5;31H[?25h[?25l[58;101H~@k[5;31H[58;101H   [5;32H[58;114H2[5;32H[?25h[?25l[58;101H~@k[5;32H[58;101H   [5;33H[58;114H3[5;33H[?25h[?25l[58;101H~@k[5;33H[58;101H   [5;34H[58;114H4[5;34H[?25h[?25l[58;101H~@k[5;34H[58;101H   [5;35H[58;114H5[5;35H[?25h[?25l[58;101H~@k[5;35H[58;101H   [5;36H[58;114H6[5;36H[?25h[?25l[58;101H~@k[5;36H[58;101H   [5;37H[58;114H7[5;37H[?25h[?25l[58;101H~@k[5;37H[58;101H   [5;38H[58;114H8[5;38H[?25h[?25l[58;101H~@k[5;38H[58;101H   [5;37H[58;114H7[5;37H[?25h[?25l[58;101H~@k[5;37H[58;101H   [5;38H[58;114H8[5;38H[?25h[?25l[58;101H~@k[5;38H[58;101H   [5;39H[5;23H[106m([15C)[m[58;114H9[5;39H[?25h[?25l[58;101H~@k[5;39H[58;101H   [5;38H[5;23H([15C)[58;114H8[5;38H[?25h[?25l[58;101H~@k[5;38H[58;101H   [5;39H[5;23H[106m([15C)[m[58;114H9[5;39H[?25h[?25l[58;101H~@k[5;39H[58;101H   [5;38H[5;23H([15C)[58;114H8[5;38H[?25h[?25l[58;101H~@k[5;38H[58;101H   [5;39H[5;23H[106m([15C)[m[58;114H9[5;39H[?25h[?25l[58;101H~@k[5;39H[58;101H   [5;40H[5;23H([15C)[58;113H40[5;40H[?25h[?25l[58;101H~@k[5;40H[58;101H   [5;39H[5;23H[106m([15C)[m[58;113H39[5;39H[?25h[?25l[58;101H~@k[5;39H[58;101H   [5;38H[5;23H([15C)[58;114H8[5;38H[?25h[?25l[58;101H~@k[5;38H[58;101H   [6;3H[4;42H[106m{
+
+[m  [106m}[m[58;111H6,3 [6;3H[?25h[?25l[58;101H~@k[6;3H[58;101H   [5;38H[4;42H{
+
+  }[58;111H5,38[5;38H[?25h[?25l[58;101Hs[5;38H[58;101H [5;38H[58;101Hcl[5;38H[58;101H  [5;38H[58;1H[1m-- INSERT --[m[58;13H[K[58;111H5,38[10CAll[5;38H[31m);[m[5;40H[K[5;38H[?25h[?25l[58;114H9[5;39H[?25h[?25l[31m;[m[5;39H[K[58;114H8[5;38H[?25h[?25l[31m;[m[5;38H[K[58;114H7[5;37H[?25h[?25l[31m;[m[5;37H[K[58;114H6[5;36H[?25h[?25l[31m;[m[5;36H[K[58;114H5[5;35H[?25h[?25l[31m;[m[5;35H[K[58;114H4[5;34H[?25h[?25l[31m;[m[5;34H[K[58;114H3[5;33H[?25h[?25l[31m;[m[5;33H[K[58;114H2[5;32H[?25h[?25l[31m;[m[5;32H[K[58;114H1[5;31H[?25h[?25l[31m;[m[5;31H[K[58;114H0[5;30H[?25h[?25l[31m,;[m[58;114H1[5;31H[?25h[?25l[31m"[m;[58;114H2[5;
